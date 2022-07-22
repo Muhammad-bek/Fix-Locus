@@ -1,0 +1,220 @@
+/* poppins-regular - latin */
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-500 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-500.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-500.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-700 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* poppins-800 - latin */
+  @font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    font-display: swap;
+    src: local(''),
+         url('../fonts/poppins-v20-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/poppins-v20-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    width: 1612px;
+    margin: 0 auto;
+    font-family: 'Poppins';
+}
+
+.hidden {
+    margin: -1px;
+    padding: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    clip: rect(0, 0, 0, 0);
+    position: absolute;
+}
+
+.decoration {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    justify-content: space-between;
+}
+
+.main-logo {
+    display: flex;
+}
+
+.different-decoration {
+    text-decoration: none;
+    color: #404242;
+}
+
+.sign-up {
+    text-decoration: none;
+    background-color: #58A9A5;
+    border-radius: 15px;
+    color: #FFFFFF;
+    font-size: 25px;
+    padding: 21px 87px 21px 88px;
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+.first-style {
+    margin-right: 85px;
+    margin-top: 35px;
+    font-size: 25px;
+}
+
+.locus {
+    font-weight: 800;
+    font-size: 35px;
+    text-decoration: none;
+    color: #58A9A5;
+    width: 105px;
+    margin: 15px 309px 10px 10px;
+}
+
+.intro-decoration {
+    width: 740px;
+    font-weight: 800;
+    font-size: 70px;
+    margin: 0px;
+    margin-top: 170px;
+}
+
+.part-of-decoration {
+    font-weight: 400;
+    font-size: 30px;
+    display: block;
+    width: 740px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.intro-img {
+    margin-left: 40px;
+    margin-top: 100px;
+    margin-bottom: 136px;
+}
+
+.intro-nav {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #58A9A5;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 20px 20px 20px 0px;
+    padding: 21px 83px 21px 90px;
+}
+
+.general-style {
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 105px;
+    margin: 0px;
+    color: #1C2323;
+}
+
+.general-style-second {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: #404242;
+    margin: 0px;
+}
+
+.general-size {
+   text-align: center;
+}
+
+.background {
+    background-color: #CCF0E6;
+    border-radius: 0px 10px 10px 0px;
+    width: 549px;
+    height: 350px;
+}
+
+.difficult-section {
+    display: flex;
+    position: relative;
+    margin-top: 71px;
+}
+
+.difficult-place {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #486958;
+    width: 328px;
+    height: 120px;
+    margin: 0px;
+    margin-left: 115px;
+    margin-top: 70px;
+    margin-bottom: 41px;
+}
+
+.linker {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #486958;
+    line-height: 30px;
+    letter-spacing: 5px;
+    margin-left: 115px;
+
+}
+
+.icon-play {
+    position: absolute;
+    left: 1000px;
+    top: 200px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 29px 30px 29px 43px;
+    border-radius: 65px;
+}
+
+.difficult-section::after {
+    content: '';
+    display: block;
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 987px;
+    border-radius: 50%;
+    top: 187px;
+}
